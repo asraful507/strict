@@ -1,0 +1,405 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.header-sec
+{
+    background: #f6f9f9;
+}
+
+.header-sec .main-header
+{
+    padding: 30px 0px;
+}
+
+/*---bannar---*/
+
+.bannar
+{
+    background-image: url(../../img/bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.container-fluid
+{
+    padding: 0;
+}
+
+.bannar-sec .main-bannar .bannar-title
+{
+    width: 600px;
+    margin: auto;
+}
+
+.bannar-sec .main-bannar .bannar-title h2 
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 120px;
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+    border-bottom: 1px solid #15a4fa;
+}
+
+.bannar-sec .main-bannar .bannar-title p 
+{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.bannar-sec .main-bannar .bannar-title span a 
+{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	border: 1px solid #15a4fa;
+	padding: 15px 30px;
+	font-size: 18px;
+	margin-left: 210px;
+	color: #fff;
+	transition: .5s;
+	display: inline-block;
+	margin-top: 50px;
+    border-radius: 5px;
+}
+
+.bannar-sec .main-bannar .bannar-title span a:hover
+{
+    background: #15a4fa;
+}
+
+.bannar-sec .main-bannar .bannar-title .fa
+{
+    color: #fff;
+    margin-left: 290px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+/*----design---*/
+
+.design-sec
+{
+    padding: 75px 0px;
+    background: #f6f9f9;
+}
+
+.design-sec .design-contant .design-title h2
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.design-sec .design-contant .design-title p
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #777878;
+}
+
+
+/*---icon grup----*/
+
+
+.icon-sec
+{
+    padding: 60px 0px;
+}
+
+.icon-sec .mini-box
+{
+    text-align: center;
+}
+
+.icon-sec .mini-box h3 
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	padding-top: 30px;
+	color: #494B4F;
+}
+
+.icon-sec .mini-box p
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #777878;
+}
+
+.icon-sec .mini-box .icon-box
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(270deg, rgba(95,195,255,1) 50%, rgba(72,186,255,1) 50%);
+    margin: auto;
+    border-radius: 3px;
+}
+
+.icon-sec .mini-box .icon-box .fa 
+{
+	font-size: 65px;
+	padding: 18px 0px;
+	color: #fff;
+}
+
+.icon-sec .mini-box .icon-box .ext-size 
+{
+	font-size: 40px;
+	padding: 30px 0px;
+}
+
+/*---work section----*/
+
+
+.work-sec
+{
+    padding: 75px 0px;
+    background: #f6f9f9;
+}
+
+.work-sec .contant-box .work-title h2
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #424E65;
+}
+
+.work-sec .contant-box .work-title p
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-bottom: 65px;
+    color: #777878;
+}
+
+.contant-box-tow
+{
+    margin-top: 30px;
+}
+
+.work-sec .contant-box .work-box
+{
+    position: relative;
+}
+
+.work-sec .contant-box .work-box .work-opacity ul
+{
+    padding: 0px 106px;
+}
+
+.work-sec .contant-box .work-box .work-opacity ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.work-sec .contant-box .work-box .work-opacity ul li a 
+{
+	text-decoration: none;
+	display: block;
+	width: 50px;
+    line-height: 50px;
+	border: 2px solid #fff;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 4px;
+    text-align: center;
+}
+
+.work-sec .contant-box .work-box .work-opacity ul li a:hover
+{
+    background: transparent;
+}
+
+.work-opacity
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(44,172,247,0.8);
+    padding: 100px 0px;
+    transform: scale(0);
+    transition: transform ease 1s;
+}
+
+.work-sec .contant-box .work-box:hover .work-opacity
+{
+    transform: scale(1);
+}
+
+/*----contact section----*/
+
+.bac-img
+{
+    background-image: url(../../img/last.banar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.img-opasity
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(43,53,74,0.8)
+}
+
+.contact-contant
+{
+    width: 50%;
+    margin: auto;
+    padding: 65px 0px;
+}
+
+.contact-contant h2
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-contant p
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #C5C6C6;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-sec .contact-contant .form-box input 
+{
+    font-family: 'Lato', sans-serif;
+	width: 555px;
+	line-height: 60px;
+	margin-bottom: 20px;
+	background: transparent;
+	border: 1px solid #8A8B8B;
+	color: #C5C6C6;
+	font-size: 15px;
+	padding-left: 20px;
+	border-radius: 4px;
+}
+
+.contact-sec .contact-contant .form-box .text-box
+{
+    font-family: 'Lato', sans-serif;
+    width: 555px;
+    height: 160px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    border: 1px solid #8A8B8B;
+	border-radius: 4px;
+    background: transparent;
+    color: #C5C6C6;
+}
+
+.contact-sec .contact-contant .form-box .chak-box
+{
+    margin-top: 20px;
+}
+
+.contact-sec .contact-contant .form-box .chak-box input
+{
+    width: 20px;
+}
+
+.contact-sec .contact-contant .form-box .chak-box span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #C5C6C6;
+}
+
+.contact-sec .contact-contant .form-box .chak-box button 
+{
+	background: transparent;
+	border: 1px solid #2cacf7;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	padding: 10px 50px;
+	color: #fff;
+	border-radius: 4px;
+    margin-left: 240px;
+    transition: .5s;
+}
+
+.contact-sec .contact-contant .form-box .chak-box button:hover
+{
+    background: #2cacf7;
+}
+
+
+/*---footer----*/
+
+
+
+.footer-sec .footer-cont .footer-title p
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #C5C6C6;
+    padding-top: 28px;
+}
+
+.footer-sec .footer-cont .icon-gurup
+{
+    margin-left: 345px;
+    padding-top: 20px;
+}
+
+.footer-sec .footer-cont .icon-gurup ul li 
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.footer-sec .footer-cont .icon-gurup ul li a 
+{
+	width: 40px;
+	line-height: 40px;
+	display: inline-block;
+	padding: 0px 13px;
+	background: #15a4fa;
+	color: #fff;
+	border-radius: 4px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
